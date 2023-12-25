@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://edge.99images.com/wallpapers/elsa-pataky-spanish-actress-portrait-beautiful-woman-makeup-black-dress-fashion-model-elsa-79790.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+.logo {
+    height: 80px;
+    width: 180px;
+}
+
+
+.navbar {
+    background: rgba(79, 79, 97, 0.6);
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+}
+
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+}
+
+li {
+    display: block;
+    padding-right: 35px;
+    cursor: pointer;
+color: rgb(203, 203, 218);
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 900;
+}
+.container{
+    padding: 25px;
+    margin-top: 35px;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    width:600px;
+    text-align: center;
+}
+li:hover {
+    color: rgb(103, 100, 107);
+    font-size: 30px;
+    text-decoration: underline;
+}
+.search{
+    display: flex;
+    align-items: center;
+    
+    
+}
+i{
+    font-size: 20px;
+    color:rgb(40, 39, 39);
+}
+input{outline: none;
+    width:800px;
+    height: 50px;
+    text-align: center;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.icon{    border: 2px solid rgb(78, 73, 73);
+
+    width: 90px;
+    height: 47px;   
+display: flex;
+align-items: center;
+justify-content: center;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: rgb(252, 253, 255);
+
+}
+h2{padding-top: 15px;
+    font-size: 45px;
+    color: rgb(127, 135, 141);
+}
+p{
+    font-weight: 700;
+    color: rgb(232, 236, 236);
+    font-family: cursive;
+}
+h1{
+    font-size: 70px;
+    color: rgb(59, 83, 104);
+
+}
+.btn {
+  
+    background: #1c2d3d;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 40%;
+    width: fit-content;
+ padding: 10px;
+    color: rgb(249, 240, 240);
+    font-size:15px;
+    
+    
+
+  }
+  .btn:hover {
+    background: #5f646a;
+  }
